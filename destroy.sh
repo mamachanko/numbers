@@ -1,1 +1,3 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash -ex
+
+cf delete-space -f numbers
