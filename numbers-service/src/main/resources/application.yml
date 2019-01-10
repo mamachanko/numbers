@@ -4,6 +4,9 @@ spring:
   security:
     user:
       password: password
+  cloud:
+    services:
+      registrationMethod: direct
 
 eureka:
   client:
